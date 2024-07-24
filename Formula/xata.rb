@@ -1,26 +1,26 @@
 class Xata < Formula
   desc Everything you need to get started with Xata
   homepage https://xata.io
-  url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/2/1/xata-v2-1-darwin-x64.tar.xz"
-  sha256 "3"
-  version "2"
+  url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions//ed5a53b2/xata-v-ed5a53b2-darwin-x64.tar.xz"
+  sha256 ""
+  version ""
   version_scheme 1
 
   on_macos do
     on_arm do
-      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/2/1/xata-v2-1-darwin-arm64.tar.xz"
-      sha256 "4"
+      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions//ed5a53b2/xata-v-ed5a53b2-darwin-arm64.tar.xz"
+      sha256 ""
     end
   end
 
   on_linux do
     on_intel do
-      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/2/1/xata-v2-1-linux-x64.tar.xz"
-      sha256 "5"
+      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions//ed5a53b2/xata-v-ed5a53b2-linux-x64.tar.xz"
+      sha256 ""
     end
     on_arm do
-      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/2/1/xata-v2-1-linux-arm64.tar.xz"
-      sha256 "6"
+      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions//ed5a53b2/xata-v-ed5a53b2-linux-arm64.tar.xz"
+      sha256 ""
     end
   end
 
