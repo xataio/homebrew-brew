@@ -1,26 +1,26 @@
 class Xata < Formula
   desc "Everything you need to get started with Xata"
   homepage "https://xata.io"
-  url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.15.15/0be76854/xata-v0.15.15-0be76854-darwin-x64.tar.xz"
-  sha256 "7f8a11b5e231572dd2ee7baf017b4e98eea68ac201e85a23830fd725c92e0f90"
-  version "0.15.15"
+  url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.16.0/9b2b2e9b/xata-v0.16.0-9b2b2e9b-darwin-x64.tar.xz"
+  sha256 "67a7032c586dad347c907358bd012191869f635a69364d5f5d0341ac4d86bc0d"
+  version "0.16.0"
   version_scheme 1
 
   on_macos do
     on_arm do
-      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.15.15/0be76854/xata-v0.15.15-0be76854-darwin-arm64.tar.xz"
-      sha256 "2a0b95029698d5b38931668b54a3d403e57a92eadc4887b94eda32900b3eac18"
+      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.16.0/9b2b2e9b/xata-v0.16.0-9b2b2e9b-darwin-arm64.tar.xz"
+      sha256 "ab30a8665e74517cd7f49961ff10c3624cbfc3e80231aba5f45fbd302485d23f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.15.15/0be76854/xata-v0.15.15-0be76854-linux-x64.tar.xz"
-      sha256 "c496e1d24e756072127267232c41341f0a0638b6f2246da159aa92d545d5fbb3"
+      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.16.0/9b2b2e9b/xata-v0.16.0-9b2b2e9b-linux-x64.tar.xz"
+      sha256 "323273852040f26c13ef8c7f7b96fb44c632233d39664dbdf3afa6143c65ab04"
     end
     on_arm do
-      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.15.15/0be76854/xata-v0.15.15-0be76854-linux-arm64.tar.xz"
-      sha256 "7988b7c1e7e93a749f139506cb457eccba37bdc9738a3f511cf71af9ab51f94d"
+      url "https://xata-cli-assets.s3.us-east-1.amazonaws.com/versions/0.16.0/9b2b2e9b/xata-v0.16.0-9b2b2e9b-linux-arm64.tar.xz"
+      sha256 "cf48d1d164cd87f2d22686fe803af73e792f42d1778d0f42ab075f9f6d6e1098"
     end
   end
 
